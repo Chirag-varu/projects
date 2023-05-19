@@ -1,15 +1,54 @@
 body{
     background-color: bisque;
 }
+
+*{
+    margin: 1;
+    padding: 3;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.ul-tab{
+    list-style-type: none;
+    font-size: 25px;
+    padding-left: 2px;
+}
+
 img{
     shape-outside: circle();
     height: 40px;
     width: 40px;
-    display: flex;
-    position: absolute;
+    position: relative;
     border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
 }
-.ul-tab{
-    display: none;
 
+.tab{
+    display: grid;
 }
+
+.up-nav{
+    display: flex;
+}
+
+.home{
+    margin-left: 984px;
+}
+
+.tuto{
+    padding-left: 34px;
+}
+
+.about{
+    padding-left: 34px;
+}
+
+.sing{
+    padding-left: 34px;
+}
+
