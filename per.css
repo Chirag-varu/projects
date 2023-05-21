@@ -12,43 +12,93 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+.logo{
+        shape-outside: circle();
+        height: 40px;
+        width: 40px;
+        position: relative;
+        border-radius: 50%;
+/*      you can also use (usemap)
+        Like this :- 
+        <map name="test">
+            <area shape="rect" coords="0,0,287,288" href="#">
+        </map>                                                     */
+        cursor: pointer;
+        left: 36px;
+}
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #C4FFE5;
+    font-size: 18px;
+}
+
+/* nav ul li a:hover{
+    background-color: #E5C4FF;
+} */
+
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    padding: 13px;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
 .ul-tab{
     list-style-type: none;
-    font-size: 25px;
-    padding-left: 2px;
+    font-size: 18px;
+    padding-left: 12px;
 }
-
-img{
-    shape-outside: circle();
-    height: 40px;
-    width: 40px;
-    position: relative;
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
 .tab{
-    display: grid;
-}
-
-.up-nav{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.home{
-    margin-left: 984px;
+.menu-item{
+    color: #B99E7E;
 }
-
-.tuto{
-    padding-left: 34px;
-}
-
-.about{
-    padding-left: 34px;
-}
-
-.sing{
-    padding-left: 34px;
-}
-
