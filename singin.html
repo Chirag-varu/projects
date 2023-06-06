@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pw.css" />
+    <link rel="stylesheet" href="singin.css" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,600,0,0" />
     <title>Login Page</title>
@@ -13,10 +13,16 @@
 
 <body>
 
+<!-- 
+    <nav class="Arrow-R">
+        <a href="#"> <ion-icon name="arrow-back-sharp"></ion-icon></a>
+    </nav> 
+-->
+
     <div class="login-card-container">
         <div class="login-card">
             <div class="login-card-logo">
-                <!-- <img src="logo.png" alt="logo" class="logo"> -->
+                <!-- <img src="./lending Page/pelogo.png" alt="logo" class="logo"> -->
             </div>
             <div class="login-card-header">
                 <h1>Sign In</h1>
@@ -30,6 +36,12 @@
                 <div class="form-item">
                     <span class="form-item-icon material-symbols-rounded">lock</span>
                     <input type="password" placeholder="Enter Password" id="passwordForm" required>
+                    <span class="Spass">
+                        <label for="spass" onclick="showPassword()" id="tran" value="Show password.">Show password.</label>
+                        <!-- <label for="spass" onclick="showPassword()" id="tran" value="Show password.">
+                            <ion-icon name="eye-off-outline"></ion-icon>
+                        </label> -->
+                    </span>
                 </div>
                 <div class="form-item-other">
                     <div class="checkbox">
@@ -66,6 +78,20 @@
             </div>
         </div>
     </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script type="text/javascript">
+
+        function showPassword(){
+            var docpass = document.getElementById('passwordForm');
+            console.log(docpass)
+            console.log(docpass.type)
+            docpass.type = docpass.type == 'password'?'text':'password'
+            }
+        
+    </script>
 
 </body>
 
