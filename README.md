@@ -13,3 +13,8 @@ https://prideeducare.com/
 Movie Review :
 https://youtu.be/TgE71N0q5yI
 
+Profile Card :
+https://www.youtube.com/watch?v=np3L1lb-Uvs
+
+Tic Tac Toe :
+https://www.youtube.com/watch?v=SqrppLEljkY
