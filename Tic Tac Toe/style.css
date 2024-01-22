@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+  background-color: #da4167;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  background: #fff;
+  font-size: 9.5vmin;
+  color: #b0413e;
+}
+
+.reset {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.newGame {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+.msg {
+  color: black;
+  font-size: 5vmin;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  /* margin-left: 12px; */
+  margin-top: 180vmin;
+  margin-bottom: 100vmin;
+}
+
+.hide {
+  display: none;
+}
+
+.main-game {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.default {
+  display: flex;
+}
+
+.default p {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  background-color: #8a1c7c;
+  border-radius: 10%;
+  border: 1px solid black;
+  margin-right: 6px;
+  margin-left: 6px;
+  margin-bottom: 5px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* justify-items: flex-start; */
+  background-color: #f0bcd4;
+  border-radius: 6%;
+  padding: 10px;
+  position: relative;
+}
+
+input[type="text"] {
+  /* width: 100%; */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-radius: 13% 0 13% 0;
+}
+
+h2 {
+  margin-bottom: 10rem;
+}
+
+img {
+  height: 10rem;
+  width: 10rem;
+}

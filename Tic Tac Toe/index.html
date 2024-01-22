@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="msg-container hide">
+        <p class="msg">Winner</p>
+        <button class="newGame">New Game</button>
+        <img src="./excited.gif" alt="">
+    </div>
+
+    <!-- TODO - add animation on win! -->
+
+    <div class="main-game">
+        <div class="name">
+            <h2>Made ~By <u> Chirag </u> </h2>
+            <div style="margin-bottom: 9rem;">
+                <div class="default">
+                    <label for="O">
+                        <p>O</p>
+                    </label>
+                    <label for="X">
+                        <p>X</p>
+                    </label>
+                </div>
+                <form>
+                    <input class="o-name" id="O" type="text" placeholder="player-O">
+                    <input class="x-name" id="X" type="text" placeholder="player-X">
+                </form>
+            </div>
+        </div>
+
+        <main>
+            <h1>Tic Tac Toe</h1>
+
+            <div class="container">
+                <div class="game">
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                </div>
+            </div>
+            <button class="reset">Reset</button>
+        </main>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
