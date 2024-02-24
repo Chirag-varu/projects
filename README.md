@@ -18,3 +18,9 @@ https://www.youtube.com/watch?v=np3L1lb-Uvs
 
 Tic Tac Toe :
 https://www.youtube.com/watch?v=SqrppLEljkY
+
+Gajet : it is from telegram 
+
+To Do List : self made project
+
+SyncWithPride : an online cyber cafe booking
